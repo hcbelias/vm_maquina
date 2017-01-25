@@ -1,0 +1,44 @@
+$base-color: white;
+
+.navbar-app{
+    
+      .navbar-brand{
+            height: auto;
+            padding: 0;
+            img{
+                height: 90px;
+            }
+      }
+
+      .navbar-nav{
+          > .active > a{
+            background-color: $base-color;
+            border-top: 2px solid #006cb4;
+            border-radius: 3px;
+
+
+            &:hover{
+                background-color: $base-color;
+                border-top: 2px solid #006cb4;
+                border-radius: 3px;
+
+            }
+          }
+
+          a{
+              padding: 30px;
+              margin: 5px;
+              text-align:center;
+              text-decoration:none;
+              text-size-adjust:100%;
+              text-transform:uppercase;
+              transition-delay:0s, 0s, 0s, 0s, 0s;              
+              transition-duration:0.1s, 0.1s, 0.1s, 0.35s, 0.35s;
+              transition-property:color, background, border, height, line-height;
+              transition-timing-function:ease-out, ease-out, ease-out, ease, ease;
+              vertical-align:baseline;
+              white-space:normal;
+          }
+      }
+
+}
